@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/shouldi-comic-decision-assistant/",
+  base: "/",
   server: {
     port: 3000,
     host: "0.0.0.0",
@@ -14,4 +14,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "."),
     },
   },
+  publicDir: "public",
 });
