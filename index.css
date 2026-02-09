@@ -1,0 +1,7 @@
+/* Additional custom styles for ShouldI? app */
+
+.halftone-bg {
+  background-image: radial-gradient(circle, #000 1px, transparent 1px);
+  background-size: 8px 8px;
+  opacity: 0.05;
+}
